@@ -57,7 +57,7 @@ If x = 3 the function will return *9*
 If x = 5 the function will return *25*
 If x = 1 the function will return *1*
 
-### return remainder - 5
+### return remainder - (5 pts)
 
 If you have a function
 
@@ -71,3 +71,75 @@ Complete the function to return the remainder of two input values.
 If x = 15, y = 4 `doRemainder`should *return 1*
 If x = 10, y = 4 `doRemainder`should *return 2*
 If x = 13, y = 4 `doRemainder`should *return 1*
+
+## So easy, they are almost silly
+
+### return a number '5' - (5pts)
+
+If you have a function
+
+```javascript
+func get5() {
+    return 0;
+}
+```
+
+Change the function to return, ready for this(?), 5.
+
+#### and some more of the same
+
+- Change the function to return 1024
+- Change the function to return -13.
+- Change the function to return 5.68 
+- Change the function to return `true`
+
+
+### return a number using some math - (5pts)
+
+If you have a function
+
+```javascript
+func doIt(n) {
+    return 0;
+}
+```
+
+Change the function to return, ready for this(?), n + 5.
+
+#### and some more of the same
+
+- Change the function to return n * 1024
+- Change the function to return n - 13
+- Change the function to return n / 5.68 
+- Change the function to return n % 13
+
+### Create a Numeric Variable and Return its Value
+
+Create a variable `v` with the value 1024 and return the variable.
+
+
+```javascript
+func doIt(n) {
+    return 0;
+}
+```
+
+### Return the length of a String (25pts)
+
+Using the `.length` method, return the length of the string "ZipCodeRocks" using the given function.
+
+
+```javascript
+func getLength() {
+  let s = "";
+  return 0;
+}
+```
+
+#### Example 1
+input: "wow" output: 3
+#### Example 2
+input: "Delaware" output: 8
+#### Example 3
+input: "BlueHen" output: 7
+

@@ -28,7 +28,8 @@ Returns:
 
 ### Explanation
 
-Using `modulo` to decide if something is a factor or not. Check out how the `%` operator works.
+Using `modulo` or `remainder` to decide if something is a factor or not. Check out how the `%` operator works.
+If the `remainder` of a division is zero, then the numbers are factors.
 
 - 6 % 2 = 0
 - 4 % 2 = 0

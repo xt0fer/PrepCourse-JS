@@ -23,8 +23,13 @@ You need to use `indexes` in an array, BUT the array indexes go from `0` to `arr
 ```javascript
 // the array places are named
        0 1 2 3 4 5
-arr = [6,7,4,2,8,3]
+arr = [6,7,4,2,8,3];
 ```
 
 So if you wanted to change the third item, you have to change `arr[2]` !
 That's because the first element in an array is *always* `arr[0]`. (So, yes, it can be confusing to describe the first element as having a zero index.) (So much so that sometimes coders refer to that element as the _zeroth_ element.)
+
+In Javascript, an array *always* has a _length_ property.
+`let l = arr.length;` and in this case, `l` would end up being 6 (with the elements numbered from 0 to 5).
+
+Remember, the index of the )last element_ in a javascript array is _always_ the length - 1.
