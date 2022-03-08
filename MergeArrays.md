@@ -30,8 +30,8 @@ Your function should return the merged array.
 
 ```
   //The test will create two variables for you
-var a =  [ 2, 4, 5, 9, 9];
-var b =  [ 0, 1, 2, 3, 4];
+var a =  [ 2, 4, 6, 9, 9];
+var b =  [ 0, 1, 2, 3, 5];
 // Then it will call the function mergeArrays
 like this
 var result = mergeArrays(a,b);
@@ -75,6 +75,24 @@ function mergeArrays(a,b) {
         }
     }
     return c;
+}
+
+ var result = mergeArrays(a,b);
+ console.log(result);
+```
+
+and another; both clever and shows thoughtful JS skills, if you can do it from memory and not from a google.
+
+
+```javascript
+//var a = [1,5,7,7];
+//var b = [0,1,2,3];
+
+var a =  [ 2, 4, 5, 9, 9];
+var b =  [ 0, 1, 2, 3, 4];
+
+function mergeArrays(a,b) {
+    return [...a,...b].sort();
 }
 
  var result = mergeArrays(a,b);
