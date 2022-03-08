@@ -43,3 +43,27 @@ The output array is
 
 Please note: If you have a choice of how to split the number, use the fewest coins. If for instance, the function get `50`, if should return 2 quarters - not 5 dimes, 10 nickels or 50 pennies.
 
+#### A Solution
+
+just one of many possible solutions.
+
+```javascript
+function coinChange(amt) {
+    let carry = amt;
+    let quarters = Math.floor(carry / 25);
+    carry = carry % 25;
+    let dimes = Math.floor(carry / 10);
+    carry = carry % 10;
+    let nickels = Math.floor(carry / 5);
+    carry = carry % 5;
+    let pennies = Math.floor(carry / 1);
+    return [quarters, nickels, dimes, pennies];
+}
+
+console.log(0, coinChange(0));
+console.log(1, coinChange(1));
+console.log(13, coinChange(13));
+console.log(23, coinChange(23));
+console.log(98, coinChange(98));
+console.log(99, coinChange(99));
+```
