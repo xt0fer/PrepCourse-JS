@@ -2,14 +2,43 @@
 
 ## Easy Qs
 
-### length of string - 5
+## So easy, they are almost silly
 
-Complete the function to return the length of the string "Zip Code Rocks" using the given function.
+### What's a function
 
-- Example 1
-  - input: "hello".length output: 5
-- Example 2
-  - input: "Delaware" output: 8
+If you have a function
+
+```javascript
+func getGasCost(amountNeeded) {
+  let dollarPerGallon = 3.9
+  return amountNeeded * dollarPerGallon;
+}
+```
+
+Coder often write `functions` which are a way to do some code as one block.
+Many of the problems you will solve in this course will be writing functions to do something.
+The one above is a function that returns the cost of some amount of gas, based on a specific price per gallon.
+
+### return a number '5' - (5pts)
+
+If you have a function
+
+```javascript
+func get5() {
+    return 0;
+}
+```
+
+Change the function to return, ready for this(?), 5.
+
+#### and some more of the same
+
+- Change the function to return 1024
+- Change the function to return -13.
+- Change the function to return 5.68 
+- Change the function to return `true`
+
+
 
 ### add two input values - 10
 
@@ -72,26 +101,14 @@ If x = 15, y = 4 `doRemainder`should *return 1*
 If x = 10, y = 4 `doRemainder`should *return 2*
 If x = 13, y = 4 `doRemainder`should *return 1*
 
-## So easy, they are almost silly
+### length of string - 5
 
-### return a number '5' - (5pts)
+Complete the function to return the length of the string "Zip Code Rocks" using the given function.
 
-If you have a function
-
-```javascript
-func get5() {
-    return 0;
-}
-```
-
-Change the function to return, ready for this(?), 5.
-
-#### and some more of the same
-
-- Change the function to return 1024
-- Change the function to return -13.
-- Change the function to return 5.68 
-- Change the function to return `true`
+- Example 1
+  - input: "hello".length output: 5
+- Example 2
+  - input: "Delaware" output: 8
 
 
 ### return a number using some math - (5pts)
