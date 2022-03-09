@@ -4,7 +4,19 @@
 
 ## So easy, they are almost silly
 
+### Output console.log()
+
+One of the very simplest Javascript programs:
+
+```javascript
+console.log("Hello, World!");
+```
+
+__Read CH1 and CH2 in the Blue JS Book.__
+
 ### What's a function
+
+How to wrap up a bunch of code into a re-usable piece called a _function_.
 
 If you have a function
 
@@ -18,6 +30,8 @@ func getGasCost(amountNeeded) {
 Coder often write `functions` which are a way to do some code as one block.
 Many of the problems you will solve in this course will be writing functions to do something.
 The one above is a function that returns the cost of some amount of gas, based on a specific price per gallon.
+It also doesn't "print" anything to `console.log`.
+It actually `returns` a value, which is the result of the calculation.
 
 ### return a number '5' - (5pts)
 
@@ -38,15 +52,13 @@ Change the function to return, ready for this(?), 5.
 - Change the function to return 5.68 
 - Change the function to return `true`
 
-
-
 ### add two input values - 10
 
 If you have a function
 
 ```javascript
 func doAddition(x, y) {
-    console.log(0);
+    return 0;
 }
 ```
 
@@ -61,7 +73,7 @@ If you have a function
 
 ```javascript
 func doMultiply(x, y) {
-    console.log(0);
+    return 0;
 }
 ```
 
@@ -76,7 +88,7 @@ If you have a function
 
 ```javascript
 func doSquare(x) {
-    console.log(0);
+    return 0;
 }
 ```
 
@@ -92,7 +104,7 @@ If you have a function
 
 ```javascript
 func doRemainder(x, y) {
-    return(0);
+    return 0;
 }
 ```
 
@@ -145,7 +157,6 @@ func doIt(n) {
 
 Using the `.length` method, return the length of the string "ZipCodeRocks" using the given function.
 
-
 ```javascript
 func getLength() {
   let s = "";
@@ -154,9 +165,14 @@ func getLength() {
 ```
 
 #### Example 1
-input: "wow" output: 3
-#### Example 2
-input: "Delaware" output: 8
-#### Example 3
-input: "BlueHen" output: 7
 
+input: "wow" output: 3
+
+#### Example 2
+
+input: "Delaware" output: 8
+
+#### Example 3
+
+input: "BlueHen" output: 7
+    

@@ -20,18 +20,3 @@ github help site: https://docs.github.com/en
 repl.it help site: https://docs.replit.com
 
 repl.it intro video https://www.youtube.com/watch?v=4UrdQDkSAZc
-
-## Output console.log()
-
-One of the very simplest Javascript programs:
-
-```javascript
-console.log("Hello, World!");
-```
-
-Read CH1 and CH2 in the Blue JS Book.
-
-## a Function
-
-How to wrap up code into a re-usable piece.
-

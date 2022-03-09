@@ -1,10 +1,18 @@
 # Last and First - Easy (50 pts)
 
-Given a string, create a new string made up of its last and first letters, reversed and separated by a space.
+Given a string, return a new string made up of its last and first letters, reversed and separated by a space.
+Write it as a function
+
+```js
+
+function firstAndLast(s) {
+    return "";
+}
+```
 
 ### Example
 
-Given the word 'school', return 'l s'. 
+Given the string 'school', return the string 'l s'. 
 
 ### Function Description
 
@@ -15,7 +23,7 @@ Complete the function `lastFirstLetters` in the editor below. `lastFirstLetters`
 
 ### Constraint
 
-2≤lengthofword≤100
+2 ≤ length of word ≤ 100
 
 ### Input Format for Custom Testing
 
