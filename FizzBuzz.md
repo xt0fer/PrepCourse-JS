@@ -61,4 +61,4 @@ None of the other values is a multiple of either 3 or 5, so print the value of i
 
 ### Steps to Solve
 
-Work on `isFactorOf` problem.
+Work on `isFactorOf` problem first. You can use the result of that exercise as part of this solution.

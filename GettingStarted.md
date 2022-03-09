@@ -1,10 +1,11 @@
 # Getting Started
 
-Introduction Items (early topics):
+## Introduction Items (early topics):
 
 - chromebook usage
 - wifi: here and at home
 - javascript: what is it?
+- the ZCW JS book for reference: https://yoda-public-files.s3.us-east-2.amazonaws.com/ZCW-JS-Prep.pdf
 - having a gmail account
 - getting a github account
   - what is github?
@@ -19,3 +20,18 @@ github help site: https://docs.github.com/en
 repl.it help site: https://docs.replit.com
 
 repl.it intro video https://www.youtube.com/watch?v=4UrdQDkSAZc
+
+## Output console.log()
+
+One of the very simplest Javascript programs:
+
+```javascript
+console.log("Hello, World!");
+```
+
+Read CH1 and CH2 in the Blue JS Book.
+
+## a Function
+
+How to wrap up code into a re-usable piece.
+
