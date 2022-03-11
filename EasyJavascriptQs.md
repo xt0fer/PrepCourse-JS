@@ -62,10 +62,11 @@ func doAddition(x, y) {
 }
 ```
 
-Make the function work. 
-If x = 5 and y = 4, the function should print *9*
-If x = 4 and y = 7, the function should print *11*
-if x = 7 and y = -3, the function should print *4*
+Make the function work.
+
+- If x = 5 and y = 4, the function should print *9*
+- If x = 4 and y = 7, the function should print *11*
+- If x = 7 and y = -3, the function should print *4*
 
 ### multiply two input values - 15
 
@@ -78,9 +79,10 @@ func doMultiply(x, y) {
 ```
 
 Make the function work. 
-If x = 4 and y = 4, the function should print *16*
-If x = 2 and y = 3, the function should print *6*
-If x = -5 and y = 4, the function should print *-20*
+
+- If x = 4 and y = 4, the function should print *16*
+- If x = 2 and y = 3, the function should print *6*
+- If x = -5 and y = 4, the function should print *-20*
 
 ### square two input values - 15
 
@@ -93,10 +95,10 @@ func doSquare(x) {
 ```
 
 Make the function work. 
-If x = 4 the function will return *16*
-If x = 3 the function will return *9*
-If x = 5 the function will return *25*
-If x = 1 the function will return *1*
+- If x = 4 the function will return *16*
+- If x = 3 the function will return *9*
+- If x = 5 the function will return *25*
+- If x = 1 the function will return *1*
 
 ### return remainder - (5 pts)
 
@@ -109,9 +111,9 @@ func doRemainder(x, y) {
 ```
 
 Complete the function to return the remainder of two input values. 
-If x = 15, y = 4 `doRemainder`should *return 1*
-If x = 10, y = 4 `doRemainder`should *return 2*
-If x = 13, y = 4 `doRemainder`should *return 1*
+- If x = 15, y = 4 `doRemainder`should *return 1*
+- If x = 10, y = 4 `doRemainder`should *return 2*
+- If x = 13, y = 4 `doRemainder`should *return 1*
 
 ### length of string - 5
 
@@ -152,27 +154,3 @@ func doIt(n) {
     return 0;
 }
 ```
-
-### Return the length of a String (25pts)
-
-Using the `.length` method, return the length of the string "ZipCodeRocks" using the given function.
-
-```javascript
-func getLength() {
-  let s = "";
-  return 0;
-}
-```
-
-#### Example 1
-
-input: "wow" output: 3
-
-#### Example 2
-
-input: "Delaware" output: 8
-
-#### Example 3
-
-input: "BlueHen" output: 7
-    
