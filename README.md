@@ -2,6 +2,8 @@
 
 Materials for the multi-week prep course; javascript.
 
+- https://drive.google.com/drive/folders/1Yqn58qMdhr0TR6hIptwXhfXRnmV0q-Cs
+
 ## Order of Work
 
 List of materials for a course. Do the labs in this order.

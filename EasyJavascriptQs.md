@@ -21,7 +21,7 @@ How to wrap up a bunch of code into a re-usable piece called a _function_.
 If you have a function
 
 ```javascript
-func getGasCost(amountNeeded) {
+function getGasCost(amountNeeded) {
   let dollarPerGallon = 3.9
   return amountNeeded * dollarPerGallon;
 }
@@ -38,7 +38,7 @@ It actually `returns` a value, which is the result of the calculation.
 If you have a function
 
 ```javascript
-func get5() {
+function get5() {
     return 0;
 }
 ```
@@ -47,17 +47,17 @@ Change the function to return, ready for this(?), 5.
 
 #### and some more of the same
 
-- Change the function to return 1024
-- Change the function to return -13.
-- Change the function to return 5.68 
-- Change the function to return `true`
+- Change the `get4` function to return 1024
+- Change the `get3` function to return -13.
+- Change the `get1` function to return 5.68 
+- Change the `gettrue` function to return `true`
 
 ### add two input values - 10
 
 If you have a function
 
 ```javascript
-func doAddition(x, y) {
+function doAddition(x, y) {
     return 0;
 }
 ```
@@ -73,7 +73,7 @@ Make the function work.
 If you have a function
 
 ```javascript
-func doMultiply(x, y) {
+function doMultiply(x, y) {
     return 0;
 }
 ```
@@ -89,7 +89,7 @@ Make the function work.
 If you have a function
 
 ```javascript
-func doSquare(x) {
+function doSquare(x) {
     return 0;
 }
 ```
@@ -105,7 +105,7 @@ Make the function work.
 If you have a function
 
 ```javascript
-func doRemainder(x, y) {
+function doRemainder(x, y) {
     return 0;
 }
 ```
@@ -130,7 +130,7 @@ Complete the function to return the length of the string "Zip Code Rocks" using 
 If you have a function
 
 ```javascript
-func doIt(n) {
+function doIt(n) {
     return 0;
 }
 ```
@@ -150,7 +150,7 @@ Create a variable `v` with the value 1024 and return the variable.
 
 
 ```javascript
-func doIt(n) {
+function doIt(n) {
     return 0;
 }
 ```

@@ -26,6 +26,12 @@ Complete the function `isFactorOf` in the editor below. `isFactorOf` has the fol
 Returns:
 - true or false: depending on inputs 
 
+```javascript
+function isFactorOf(num, f) {
+    return false;
+}
+```
+
 ### Explanation
 
 Using `modulo` or `remainder` to decide if something is a factor or not. Check out how the `%` operator works.
