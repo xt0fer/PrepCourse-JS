@@ -57,7 +57,7 @@ function coinChange(amt) {
     let nickels = Math.floor(carry / 5);
     carry = carry % 5;
     let pennies = Math.floor(carry / 1);
-    return [quarters, nickels, dimes, pennies];
+    return [quarters, dimes, nickels, pennies];
 }
 
 console.log(0, coinChange(0));

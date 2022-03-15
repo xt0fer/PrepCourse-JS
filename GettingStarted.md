@@ -11,6 +11,9 @@
   - what is github?
   - why do coders use github?
 - getting to repl.it
+- doing problems
+- Quiz: HackerRank account
+
 
 (Hand out little notebooks to keep small amounts of coding data in? Maybe paper Field Notes.)
 

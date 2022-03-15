@@ -62,3 +62,22 @@ None of the other values is a multiple of either 3 or 5, so print the value of i
 ### Steps to Solve
 
 Work on `isFactorOf` problem first. You can use the result of that exercise as part of this solution.
+
+
+## A Solution
+
+```Javascript
+function fizzbuzz(n) {
+  let aNumber = 0;
+  while (aNumber <= n) {
+    if (aNumber % 15 == 0) console.log("ZipCoder"); 
+    else if (aNumber % 3 == 0) console.log("Zip"); 
+    else if (aNumber % 5 == 0) console.log("Coder"); 
+    else console.log(aNumber);
+    aNumber++;
+  }
+  return;
+}
+
+fizzbuzz(15)
+```
